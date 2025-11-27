@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PanART!</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+
+<body>
+    <header>
+        <h1>PanART!!!</h1>
+        <img src="chill.jpg" alt="Placeholder Image">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-products">About Products</a></li>
+            <li><a href="#contact">Contact Info</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="homepage">
+        <h2>Home Page</h2>
+        <p>
+          Welcome! I offer services such as art comissions, and voice - acting comissions. 
+          Feel free to explore and look at the samples I have made, feel free to stay here for as long as you'd like!
+        </p>
+    </section>
+    <section class="aboutme">
+      <h2>About me</h2>
+      <p>
+        I am an aspiring freelancer that does art comissions, voice overs, and graphic designs.
+        I am currently taking Bachelor's of Multimedia Arts.
+      </p>
+    </section>
+   <section id="about-products">
+        <h2>About Products</h2>
+        <p class="short">Here are some art samples I made!</p>
+        <div class="card">
+            <img src="illustration.png" alt="gorl">
+            <h3>"Colors"</h3>
+            <p>An illustration that portrays a girl in a kimono, including a variety of colors
+              in her hair depicting her current mood/emotion.
+            </p>
+        </div>
+        <div class="card">
+            <img src="cat.png" alt="meow meow">
+            <h3>"Cat"</h3>
+            <p>A simple illustration I made to increase my portfolio. It includes a cat that 
+              I applied shading and lighting, Its in a watercolor style.
+            </p>
+        </div>
+        <div class="card">
+            <img src="shinto gate.png" alt="background">
+            <h3>"Unknown World"</h3>
+            <p>A background illustration I made for a visual novel story for my personal project.
+              It showcases a strange shinto gate in the middle of a pool of water deep in the mountains,
+              almost as if its a gate...
+            </p>
+        </div>
+        <button id="redirect-home">Back to Home</button>
+    </section>
+    <section id="contact">
+        <h2>Contact Info</h2>
+        <p>Get in touch with us!</p>
+        <p>Email: cjpaningbatan93@gmail.com</p>
+        <p>Phone: (123) 0945-378-5279</p>
+        <p>Address: 123 Main St, Anytown, Philippines</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 All rights reserved.</p>
+    </footer>
+
+    <script>
+            document.getElementById('redirect-home').addEventListener('click', function() {
+                window.location.hash = '#home'; 
+        });
+    </script>
+</body>
+</html>
